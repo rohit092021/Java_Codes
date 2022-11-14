@@ -25,7 +25,7 @@ public class Max_SubArray_Sum_Brute_Force {
                     currsum+=arr[k];
 //                    System.out.print(arr[k]+" ");
                 }
-                System.out.println(currsum);
+                System.out.println(currsum+" ");
                 if(max<currsum){
                     max=currsum;
                 }
