@@ -10,7 +10,7 @@ public class Trapping_RainWater {
         for(int i=0; i<arr.length;i++){
             arr[i]=sc.nextInt();
         }
-        System.out.println(TrappingWater(arr));
+        System.out.println(TrappingWater(arr)+" ");
     }
     public static int TrappingWater(int[] arr) {
         int[] left = new int[arr.length];
