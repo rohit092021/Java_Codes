@@ -1,11 +1,10 @@
-package CLASSES_150.Sorting;
+package Super_150.Sorting;
 
 public class Selection_Sort {
     public static void main(String[] args) {
         int[] arr={2,5,7,1,4,3};
         Sort(arr);
-        for(int i=0
-            ; i<arr.length; i++){
+        for(int i=0; i<arr.length; i++){
             System.out.println(arr[i]+" ");
         }
     }
