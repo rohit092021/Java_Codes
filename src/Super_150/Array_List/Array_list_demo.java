@@ -15,12 +15,12 @@ public class Array_list_demo {
         System.out.println(a);
         Integer ii=100;
         int i=10;
+
         i=ii;//when wrapper is put into its primitive then it is known as Onboxing
     Integer z1=19;
     Integer z2=19;
     Integer x1=200;
     Integer x2=200;
-
         System.out.println(z1==z2);
         System.out.println(x1==x2);
 
