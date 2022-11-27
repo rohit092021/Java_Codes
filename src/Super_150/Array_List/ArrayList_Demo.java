@@ -6,7 +6,7 @@ public class ArrayList_Demo {
     public static void main(String[] args) {
         ArrayList<Integer>List=new ArrayList<>();
         System.out.println(List);
-        List.add(10);// it the element in the last
+        List.add(10);// it add the element in the last
         List.add(20);
 
         System.out.println(List);
