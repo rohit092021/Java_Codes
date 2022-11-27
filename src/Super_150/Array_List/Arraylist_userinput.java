@@ -10,7 +10,13 @@ public class Arraylist_userinput {
         list.add(sc.nextInt());
     }
     for(int i=0;i<list.size();i++){
-        System.out.println(list.get(i));
+        System.out.print(list.get(i)+" ");
     }
+    Collections.sort(list);
+        System.out.print(list+" ");
+//        while(true){
+//            list.add(100);
+//            System.out.print(list+" ");
+//        }
     }
 }
