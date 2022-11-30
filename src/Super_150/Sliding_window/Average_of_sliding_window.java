@@ -10,6 +10,7 @@ public class Average_of_sliding_window {
         while(true)
         {
             int ele=sc.nextInt();
+
             if(ele==-1)
                 break;
             list.add(ele);
