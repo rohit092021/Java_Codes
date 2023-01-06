@@ -11,5 +11,6 @@ public class factorial_of_n {
         }
       int fn=factorial(n-1);
       return n*fn;
+//        return n*factorial(n-1);   this line can be also written also
     }
 }
