@@ -15,5 +15,6 @@ public class print_n_to_1 {
         }
         System.out.println(n);
         printNum(n-1);
+        System.out.println(n);
     }
 }
