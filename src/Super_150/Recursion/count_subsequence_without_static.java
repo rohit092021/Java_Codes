@@ -8,6 +8,7 @@ public class count_subsequence_without_static {
     }
     public static int subSeq(String str, String ans) {
         if (str.length() == 0) {
+            System.out.println(ans+"-");
             return 1;
         }
         char ch = str.charAt(0);
