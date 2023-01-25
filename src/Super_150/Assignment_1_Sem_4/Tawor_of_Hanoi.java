@@ -1,7 +1,5 @@
 package Super_150.Assignment_1_Sem_4;
-
 import java.util.Scanner;
-
 public class Tawor_of_Hanoi {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
