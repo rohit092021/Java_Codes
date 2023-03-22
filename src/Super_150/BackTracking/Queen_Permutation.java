@@ -1,5 +1,4 @@
 package Super_150.BackTracking;
-
 public class Queen_Permutation {
     public static void main(String[] args) {
         int n=4;
@@ -7,7 +6,6 @@ public class Queen_Permutation {
         boolean [] board = new boolean[4];
         Permutation(board, tq, 0,"");
     }
-
     public static void Permutation( boolean [] board, int tq, int qpsf, String ans) {
         if(qpsf==tq){
             System.out.println(ans);
